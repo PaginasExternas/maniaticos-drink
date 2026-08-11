@@ -1,0 +1,23 @@
+---
+import content from '../data/content.json';
+
+const { es } = content;
+---
+<div id="promos" class="section">
+  <div class="section-head">
+    <div class="eyebrow" style="color:#ff2ec4;" id="promos-eyebrow">{es.promos.eyebrow}</div>
+    <div class="section-title" style="color:#3ec6ff;text-shadow:0 0 16px rgba(62,198,255,0.6);" id="promos-title">{es.promos.title}</div>
+  </div>
+  <div class="promo-grid" id="promos-items">
+    {es.promos.items.map((promo) => (
+      <div
+        class="promo-card"
+        style={{ border: `1px solid ${promo.color}40`, boxShadow: `0 0 24px ${promo.color}22` }}
+      >
+        <div class="promo-title" style={{ color: promo.color, textShadow: `0 0 10px ${promo.color}88` }}>{promo.title}</div>
+        <div class="promo-desc">{promo.desc}</div>
+      </div>
+    ))}
+  </div>
+  <div class="promos-disclaimer" id="promos-disclaimer">{es.promos.disclaimer}</div>
+</div>

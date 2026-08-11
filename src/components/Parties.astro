@@ -1,0 +1,22 @@
+---
+import content from '../data/content.json';
+
+const { es } = content;
+---
+<div id="fiestas" class="section">
+  <div class="section-head">
+    <div class="eyebrow" style="color:#4dff6a;" id="fiestas-eyebrow">{es.fiestas.eyebrow}</div>
+    <div class="section-title" style="color:#ffe14d;text-shadow:0 0 16px rgba(255,225,77,0.6);" id="fiestas-title">{es.fiestas.title}</div>
+  </div>
+  <div class="party-grid" id="fiestas-items">
+    {es.fiestas.items.map((party) => (
+      <div class="party-card" style={{ border: `1px solid ${party.color}40` }}>
+        <div class="party-bar" style={{ background: party.color, boxShadow: `0 0 14px ${party.color}` }}></div>
+        <div class="party-card-body">
+          <div class="party-title" style={{ color: party.color }}>{party.title}</div>
+          <div class="party-desc">{party.desc}</div>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>

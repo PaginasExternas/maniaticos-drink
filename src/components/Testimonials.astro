@@ -1,0 +1,20 @@
+---
+import content from '../data/content.json';
+
+const { es } = content;
+---
+<div id="opiniones" class="section">
+  <div class="section-head">
+    <div class="eyebrow" style="color:#3ec6ff;" id="opiniones-eyebrow">{es.opiniones.eyebrow}</div>
+    <div class="section-title" style="color:#ff2ec4;text-shadow:0 0 16px rgba(255,46,196,0.6);" id="opiniones-title">{es.opiniones.title}</div>
+  </div>
+  <div class="testi-grid" id="opiniones-items">
+    {es.opiniones.items.map((tst) => (
+      <div class="testi-card">
+        <div class="testi-stars">{tst.stars}</div>
+        <div class="testi-quote">"{tst.quote}"</div>
+        <div class="testi-name">{tst.name}</div>
+      </div>
+    ))}
+  </div>
+</div>

@@ -1,0 +1,85 @@
+---
+import content from '../data/content.json';
+
+const { shared, es } = content;
+const base = import.meta.env.BASE_URL;
+
+const langs = [
+  { code: 'es', label: 'ES' },
+  { code: 'en', label: 'EN' },
+  { code: 'de', label: 'DE' },
+];
+
+const flagSvg: Record<string, string> = {
+  es: '<rect width="20" height="14" fill="#c60b1e"></rect><rect y="3.5" width="20" height="7" fill="#ffc400"></rect>',
+  en: '<rect width="20" height="14" fill="#012169"></rect><path d="M0 0L20 14M20 0L0 14" stroke="#fff" stroke-width="2.2"></path><path d="M0 0L20 14M20 0L0 14" stroke="#c8102e" stroke-width="1.1"></path><path d="M10 0V14M0 7H20" stroke="#fff" stroke-width="3.6"></path><path d="M10 0V14M0 7H20" stroke="#c8102e" stroke-width="2"></path>',
+  de: '<rect width="20" height="4.66" fill="#000"></rect><rect y="4.66" width="20" height="4.66" fill="#dd0000"></rect><rect y="9.33" width="20" height="4.67" fill="#ffce00"></rect>',
+};
+---
+<div class="nav-sticky">
+  <div class="nav-bar">
+    <div class="nav-brand">
+      <img src={`${base}assets/logo-maniaticos-transparent.png`} alt="Maniáticos Drink" />
+      <div class="nav-brand-text">
+        <span class="nav-brand-script">Maniáticos</span>
+        <span class="nav-brand-sub">DRINK</span>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <div class="nav-links" id="nav-links">
+        {shared.navOrder.map((key: string) => (
+          <a
+            href={`#${key}`}
+            class="nav-link"
+            data-section={key}
+            data-nav-link
+            style={{ color: shared.navColors[key] }}
+          >
+            {es.nav[key]}
+          </a>
+        ))}
+        <div class="nav-underline" id="nav-underline"></div>
+      </div>
+
+      <div class="lang-switch">
+        {langs.map((l) => (
+          <div class="lang-btn" data-lang={l.code} data-lang-btn>
+            <svg viewBox="0 0 20 14" width="18" height="13" set:html={flagSvg[l.code]} />
+            <span class="lang-code">{l.label}</span>
+          </div>
+        ))}
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <div class="hamburger-bar top" id="hamburger-top"></div>
+        <div class="hamburger-bar mid" id="hamburger-mid"></div>
+        <div class="hamburger-bar bot" id="hamburger-bot"></div>
+      </div>
+    </div>
+
+    <div class="mobile-menu-panel" id="mobile-menu-panel">
+      <div class="mobile-nav-links" id="mobile-nav-links">
+        {shared.navOrder.map((key: string) => (
+          <a
+            href={`#${key}`}
+            class="nav-link"
+            data-section={key}
+            data-mobile-nav-link
+            style={{ color: shared.navColors[key] }}
+          >
+            {es.nav[key]}
+          </a>
+        ))}
+      </div>
+      <div class="lang-switch-mobile">
+        {langs.map((l) => (
+          <div class="lang-btn" data-lang={l.code} data-lang-btn>
+            <svg viewBox="0 0 20 14" width="18" height="13" set:html={flagSvg[l.code]} />
+            <span>{l.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,220 @@
+{
+  "shared": {
+    "navOrder": ["menu", "promos", "fiestas", "opiniones"],
+    "navColors": {
+      "menu": "#ff2ec4",
+      "promos": "#3ec6ff",
+      "fiestas": "#4dff6a",
+      "opiniones": "#ffe14d"
+    },
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/profile.php?id=100054872824644&sk=about",
+      "instagram": "https://www.instagram.com/maniaticos_drink/"
+    },
+    "developer": {
+      "name": "jose-web",
+      "url": "https://www.linkedin.com/in/jose-web/"
+    }
+  },
+  "es": {
+    "nav": { "menu": "MENÚ", "promos": "PROMOCIONES", "fiestas": "FIESTAS", "opiniones": "OPINIONES" },
+    "hero": {
+      "desc": "Cócteles, cervezas y noches temáticas. La previa perfecta con tus panas, buena música y esa vibra que no se encuentra en cualquier lado."
+    },
+    "menu": {
+      "eyebrow": "NUESTRA CARTA",
+      "title": "Menú",
+      "categories": [
+        {
+          "name": "CÓCTELES",
+          "color": "#ff2ec4",
+          "items": [
+            { "image": "https://i.etsystatic.com/49831704/r/il/90dc5c/8019298463/il_794xN.8019298463_k0nj.jpg", "name": "Mojito", "desc": "Ron, hierbabuena, lima y soda." },
+            { "image": "https://mixthatdrink.com/wp-content/uploads/2023/03/classic-margarita-cocktail-720x720.jpg", "name": "Margarita", "desc": "Tequila, triple sec y limón." },
+            { "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/A9467000-4182-4A69-802E-6A36234604C1/Derivates/9cca3d9b-727b-4d23-b633-71dcd23125da.jpg", "name": "Piña Colada", "desc": "Ron, piña y crema de coco." }
+          ]
+        },
+        {
+          "name": "CERVEZAS",
+          "color": "#3ec6ff",
+          "items": [
+            { "image": "https://hips.hearstapps.com/hmg-prod/images/cana-de-cerveza-elle-gourmet-2-65f41d322081a.jpg?crop=0.670xw:1.00xh;0.289xw,0&resize=1200:*", "name": "Cerveza", "desc": "Chela bien fría, la de siempre." },
+            { "image": "https://www.196flavors.com/wp-content/uploads/2022/06/panache-2.jpeg", "name": "Clarita", "desc": "Rubia, ligera y bien helada." }
+          ]
+        },
+        {
+          "name": "PIQUEOS",
+          "color": "#ffe14d",
+          "items": [
+            { "image": "https://www.pequerecetas.com/wp-content/uploads/2018/06/patatas-bravas-caseras-receta.jpg", "name": "Papas bravas", "desc": "Con salsa brava y alioli." },
+            { "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/7695121e-8b9a-4d00-ab96-4430e47266ba/Derivates/445ffdd9-9a8e-48fa-9e86-84c1e94469ca.jpg", "name": "Nachos", "desc": "Con queso, guacamole y pico de gallo." }
+          ]
+        }
+      ]
+    },
+    "promos": {
+      "eyebrow": "NO TE LAS PIERDAS",
+      "title": "Promociones",
+      "disclaimer": "Promociones sujetas a disponibilidad. Consulta condiciones en el local.",
+      "items": [
+        { "title": "5 CÓCTELES POR 4", "desc": "Pide tres cócteles y paga solo dos. Válido en barra y mesas.", "color": "#ff2ec4" },
+        { "title": "HAPPY HOUR", "desc": "Descuentos especiales en tragos seleccionados. Consulta horarios en el local.", "color": "#3ec6ff" }
+      ]
+    },
+    "fiestas": {
+      "eyebrow": "CADA MES ES DISTINTO",
+      "title": "Fiestas Temáticas",
+      "items": [
+        { "title": "NOCHE NEÓN UV", "desc": "Pintura fluorescente, luces negras y la pista encendida toda la noche.", "color": "#4dff6a" },
+        { "title": "FIESTA RETRO 2000s", "desc": "Los hits que marcaron una época, vestimenta y ambientación de la década.", "color": "#ffe14d" }
+      ]
+    },
+    "opiniones": {
+      "eyebrow": "LO QUE DICEN",
+      "title": "Comentarios",
+      "items": [
+        { "name": "Camila R.", "stars": "★★★★★", "quote": "El ambiente es único y las promociones de cócteles valen la pena. Volveré pronto." },
+        { "name": "Jorge T.", "stars": "★★★★★", "quote": "Fuimos a la noche temática y fue la mejor salida del mes. Muy recomendado." },
+        { "name": "Andrea M.", "stars": "★★★★☆", "quote": "Buena atención y las papas bravas están deliciosas. El lugar tiene mucha onda." },
+        { "name": "Luis F.", "stars": "★★★★★", "quote": "La música y el ambiente son geniales, perfecto para salir con amigos." },
+        { "name": "Valeria S.", "stars": "★★★★☆", "quote": "Los cócteles están muy bien preparados y el precio vale la pena." },
+        { "name": "Diego P.", "stars": "★★★★★", "quote": "Un lugar con mucha buena vibra, siempre queremos volver." }
+      ]
+    },
+    "footer": { "line": "Maniáticos Drink · Resto-Bar", "credit": "Desarrollado por" }
+  },
+  "en": {
+    "nav": { "menu": "MENU", "promos": "PROMOS", "fiestas": "PARTIES", "opiniones": "REVIEWS" },
+    "hero": {
+      "desc": "Cocktails, beers and themed nights. The perfect pre-game with your crew, good music and a vibe you won’t find anywhere else."
+    },
+    "menu": {
+      "eyebrow": "OUR MENU",
+      "title": "Menu",
+      "categories": [
+        {
+          "name": "COCKTAILS",
+          "color": "#ff2ec4",
+          "items": [
+            { "image": "https://i.etsystatic.com/49831704/r/il/90dc5c/8019298463/il_794xN.8019298463_k0nj.jpg", "name": "Mojito", "desc": "Rum, mint, lime and soda." },
+            { "image": "https://mixthatdrink.com/wp-content/uploads/2023/03/classic-margarita-cocktail-720x720.jpg", "name": "Margarita", "desc": "Tequila, triple sec and lime." },
+            { "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/A9467000-4182-4A69-802E-6A36234604C1/Derivates/9cca3d9b-727b-4d23-b633-71dcd23125da.jpg", "name": "Piña Colada", "desc": "Rum, pineapple and coconut cream." }
+          ]
+        },
+        {
+          "name": "BEERS",
+          "color": "#3ec6ff",
+          "items": [
+            { "image": "https://hips.hearstapps.com/hmg-prod/images/cana-de-cerveza-elle-gourmet-2-65f41d322081a.jpg?crop=0.670xw:1.00xh;0.289xw,0&resize=1200:*", "name": "Beer", "desc": "Ice-cold, the classic pick." },
+            { "image": "https://www.196flavors.com/wp-content/uploads/2022/06/panache-2.jpeg", "name": "Lager", "desc": "Light, golden and ice-cold." }
+          ]
+        },
+        {
+          "name": "SNACKS",
+          "color": "#ffe14d",
+          "items": [
+            { "image": "https://www.pequerecetas.com/wp-content/uploads/2018/06/patatas-bravas-caseras-receta.jpg", "name": "Papas bravas", "desc": "With spicy brava sauce and aioli." },
+            { "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/7695121e-8b9a-4d00-ab96-4430e47266ba/Derivates/445ffdd9-9a8e-48fa-9e86-84c1e94469ca.jpg", "name": "Nachos", "desc": "With cheese, guacamole and pico de gallo." }
+          ]
+        }
+      ]
+    },
+    "promos": {
+      "eyebrow": "DON'T MISS OUT",
+      "title": "Promos",
+      "disclaimer": "Promos subject to availability. Check conditions on site.",
+      "items": [
+        { "title": "5 COCKTAILS FOR 4", "desc": "Order three cocktails and pay for two. Valid at the bar and tables.", "color": "#ff2ec4" },
+        { "title": "HAPPY HOUR", "desc": "Special discounts on selected drinks. Check hours on site.", "color": "#3ec6ff" }
+      ]
+    },
+    "fiestas": {
+      "eyebrow": "EVERY MONTH IS DIFFERENT",
+      "title": "Themed Parties",
+      "items": [
+        { "title": "UV NEON NIGHT", "desc": "Glow paint, black lights and the dance floor lit up all night.", "color": "#4dff6a" },
+        { "title": "2000s RETRO PARTY", "desc": "The hits that defined an era, with decade-themed styling.", "color": "#ffe14d" }
+      ]
+    },
+    "opiniones": {
+      "eyebrow": "WHAT PEOPLE SAY",
+      "title": "Reviews",
+      "items": [
+        { "name": "Camila R.", "stars": "★★★★★", "quote": "The vibe is unique and the cocktail promos are worth it. I’ll be back soon." },
+        { "name": "Jorge T.", "stars": "★★★★★", "quote": "We went to the themed night and it was the best outing of the month. Highly recommended." },
+        { "name": "Andrea M.", "stars": "★★★★☆", "quote": "Great service and the papas bravas are delicious. The place has a lot of character." },
+        { "name": "Luis F.", "stars": "★★★★★", "quote": "The music and atmosphere are great, perfect for going out with friends." },
+        { "name": "Valeria S.", "stars": "★★★★☆", "quote": "The cocktails are well made and worth the price." },
+        { "name": "Diego P.", "stars": "★★★★★", "quote": "A place with a lot of good energy, we always want to come back." }
+      ]
+    },
+    "footer": { "line": "Maniáticos Drink · Resto-Bar", "credit": "Developed by" }
+  },
+  "de": {
+    "nav": { "menu": "MENÜ", "promos": "AKTIONEN", "fiestas": "PARTYS", "opiniones": "BEWERTUNGEN" },
+    "hero": {
+      "desc": "Cocktails, Bier und Themenabende. Der perfekte Start in die Nacht mit deinen Freunden, guter Musik und einer Atmosphäre, die man sonst nirgends findet."
+    },
+    "menu": {
+      "eyebrow": "UNSERE KARTE",
+      "title": "Menü",
+      "categories": [
+        {
+          "name": "COCKTAILS",
+          "color": "#ff2ec4",
+          "items": [
+            { "image": "https://i.etsystatic.com/49831704/r/il/90dc5c/8019298463/il_794xN.8019298463_k0nj.jpg", "name": "Mojito", "desc": "Rum, Minze, Limette und Soda." },
+            { "image": "https://mixthatdrink.com/wp-content/uploads/2023/03/classic-margarita-cocktail-720x720.jpg", "name": "Margarita", "desc": "Tequila, Triple Sec und Limette." },
+            { "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/A9467000-4182-4A69-802E-6A36234604C1/Derivates/9cca3d9b-727b-4d23-b633-71dcd23125da.jpg", "name": "Piña Colada", "desc": "Rum, Ananas und Kokoscreme." }
+          ]
+        },
+        {
+          "name": "BIER",
+          "color": "#3ec6ff",
+          "items": [
+            { "image": "https://hips.hearstapps.com/hmg-prod/images/cana-de-cerveza-elle-gourmet-2-65f41d322081a.jpg?crop=0.670xw:1.00xh;0.289xw,0&resize=1200:*", "name": "Bier", "desc": "Eiskalt, der Klassiker." },
+            { "image": "https://www.196flavors.com/wp-content/uploads/2022/06/panache-2.jpeg", "name": "Helles", "desc": "Hell, leicht und eiskalt." }
+          ]
+        },
+        {
+          "name": "SNACKS",
+          "color": "#ffe14d",
+          "items": [
+            { "image": "https://www.pequerecetas.com/wp-content/uploads/2018/06/patatas-bravas-caseras-receta.jpg", "name": "Papas bravas", "desc": "Mit scharfer Brava-Sauce und Aioli." },
+            { "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/7695121e-8b9a-4d00-ab96-4430e47266ba/Derivates/445ffdd9-9a8e-48fa-9e86-84c1e94469ca.jpg", "name": "Nachos", "desc": "Mit Käse, Guacamole und Pico de Gallo." }
+          ]
+        }
+      ]
+    },
+    "promos": {
+      "eyebrow": "NICHT VERPASSEN",
+      "title": "Aktionen",
+      "disclaimer": "Aktionen je nach Verfügbarkeit. Bedingungen vor Ort erfragen.",
+      "items": [
+        { "title": "5 COCKTAILS ZUM PREIS VON 4", "desc": "Bestelle drei Cocktails und bezahle nur zwei. Gültig an der Bar und an Tischen.", "color": "#ff2ec4" },
+        { "title": "HAPPY HOUR", "desc": "Sonderrabatte auf ausgewählte Drinks. Zeiten vor Ort erfragen.", "color": "#3ec6ff" }
+      ]
+    },
+    "fiestas": {
+      "eyebrow": "JEDEN MONAT ANDERS",
+      "title": "Themenpartys",
+      "items": [
+        { "title": "UV-NEON-NACHT", "desc": "Leuchtfarbe, Schwarzlicht und eine Tanzfläche, die die ganze Nacht leuchtet.", "color": "#4dff6a" },
+        { "title": "2000er RETRO-PARTY", "desc": "Die Hits einer ganzen Ära, mit passendem Deko-Stil des Jahrzehnts.", "color": "#ffe14d" }
+      ]
+    },
+    "opiniones": {
+      "eyebrow": "WAS LEUTE SAGEN",
+      "title": "Bewertungen",
+      "items": [
+        { "name": "Camila R.", "stars": "★★★★★", "quote": "Die Atmosphäre ist einzigartig und die Cocktail-Aktionen lohnen sich. Ich komme bald wieder." },
+        { "name": "Jorge T.", "stars": "★★★★★", "quote": "Wir waren am Themenabend und es war der beste Ausflug des Monats. Sehr empfehlenswert." },
+        { "name": "Andrea M.", "stars": "★★★★☆", "quote": "Guter Service und die Papas bravas sind köstlich. Der Ort hat viel Charakter." },
+        { "name": "Luis F.", "stars": "★★★★★", "quote": "Musik und Atmosphäre sind großartig, perfekt für einen Abend mit Freunden." },
+        { "name": "Valeria S.", "stars": "★★★★☆", "quote": "Die Cocktails sind gut gemacht und den Preis wert." },
+        { "name": "Diego P.", "stars": "★★★★★", "quote": "Ein Ort mit sehr guter Energie, wir kommen immer wieder gerne zurück." }
+      ]
+    },
+    "footer": { "line": "Maniáticos Drink · Resto-Bar", "credit": "Entwickelt von" }
+  }
+}

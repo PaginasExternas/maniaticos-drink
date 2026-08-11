@@ -1,0 +1,31 @@
+---
+import content from '../data/content.json';
+
+const { es } = content;
+---
+<div id="menu" class="section">
+  <div class="section-head">
+    <div class="eyebrow" style="color:#3ec6ff;" id="menu-eyebrow">{es.menu.eyebrow}</div>
+    <div class="section-title" style="color:#ff2ec4;text-shadow:0 0 16px rgba(255,46,196,0.6);" id="menu-title">{es.menu.title}</div>
+  </div>
+
+  <div id="menu-categories">
+    {es.menu.categories.map((cat) => (
+      <div class="menu-category">
+        <div class="cat-head">
+          <div class="cat-name" style={{ color: cat.color }}>{cat.name}</div>
+          <div class="cat-rule" style={{ background: `linear-gradient(90deg, ${cat.color}55, transparent)` }}></div>
+        </div>
+        <div class="menu-item-grid">
+          {cat.items.map((it) => (
+            <div class="card">
+              <img src={it.image} alt={it.name} loading="lazy" />
+              <div class="card-name">{it.name}</div>
+              <div class="card-desc">{it.desc}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
