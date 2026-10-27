@@ -7,7 +7,7 @@
 Landing page estática construida con [Astro](https://astro.build), un componente por sección y todos los textos en un único JSON multi-idioma (ES / EN / DE).
 
 [![Astro](https://img.shields.io/badge/Astro-4-BC52EE?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build)
-[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-222?style=for-the-badge&logo=github)](https://paginasexternas.github.io/maniaticos-drink/)
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-222?style=for-the-badge&logo=github)](https://paginasexternas.github.io/maniaticos-drink)
 [![Idiomas](https://img.shields.io/badge/Idiomas-ES%20%7C%20EN%20%7C%20DE-3EC6FF?style=for-the-badge)](#-idiomas)
 [![Licencia](https://img.shields.io/badge/Licencia-privado-7c6b98?style=for-the-badge)](#)
 
